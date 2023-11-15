@@ -20,14 +20,14 @@ A continuación, se muestra una captura del output de la consola:
 
 
 **imagen despues de modificar**
+
 ![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-dos/imagenes/2.png)
 
 
 **Output de la Consola:**
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-dos/imagenes/aaaaa.png)
 
-https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-dos/imagenes/1.png
 
 ## Observaciones
 
