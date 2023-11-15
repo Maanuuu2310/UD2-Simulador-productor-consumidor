@@ -14,11 +14,11 @@ En esta iteración, se han establecido prioridades más altas para los hilos de 
 
 **Cambios en cliente:**
 
-![Consola]([URL_DE_LA_IMAGEN_CONSOLA](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-tres/src/imagenes/3.png))
+![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-tres/src/imagenes/3.png)
 
 **Cambios en granjero:**
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-tres/src/imagenes/4.png)
 
 A continuación, se muestra una captura del output de la consola:
 
