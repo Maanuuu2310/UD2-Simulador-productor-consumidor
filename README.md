@@ -1,18 +1,19 @@
-## Getting Started
+# Establecimiento de Prioridades
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En esta iteración, se han establecido prioridades más altas para los hilos de los productores. Esto podría tener un impacto en la salida del programa y en la gestión de la concurrencia.
 
-## Folder Structure
+## Capturas de Pantalla
 
-The workspace contains two folders by default, where:
+A continuación, se muestra una captura del output de la consola:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Output de la Consola:**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Comparación con Experimento Anterior
 
-## Dependency Management
+Observa si el resultado es similar al caso en el que hacemos los tiempos de producción más cortos. Puede haber similitudes en la gestión de la producción y el consumo de productos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Si hay algún problema o pregunta, no dudes en abrir un issue o contactarme.
+
+¡Analiza los resultados de este experimento comparándolos con el anterior!
