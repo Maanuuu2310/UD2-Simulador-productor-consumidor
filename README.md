@@ -1,18 +1,33 @@
-## Getting Started
+# EXPERIMENTO- DOS
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+El enunciado de este ejercicio nos pide lo siguiente:
 
-## Folder Structure
+En una rama llamada “experimento-dos”:
+- a) Cambia los parámetros de tiempo de producción y hazlos más cortos que los del tiempo en el que el cliente consume los productos.
+- b) Muestra una captura del output de la consola.
+- c) ¿Observas algún cambio en la salida? lo mismo con esto
 
-The workspace contains two folders by default, where:
+## Cambios en los Tiempos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+En esta iteración, se han ajustado los parámetros de tiempo de producción para que sean más cortos que los del tiempo en el que el cliente consume los productos. Esto podría tener un impacto en la salida del programa.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Capturas de Pantalla
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A continuación, se muestra una captura del output de la consola:
 
-## Dependency Management
+**imagen antes de modificar**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+
+**imagen despues de modificar**
+
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+
+
+**Output de la Consola:**
+
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+
+## Observaciones
+
+Al observar la nueva ejecución del programa, verifica si hay algún cambio significativo en la salida. Pueden surgir situaciones como la producción de más productos de los que el consumidor puede manejar o viceversa.
