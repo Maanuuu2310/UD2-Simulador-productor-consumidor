@@ -17,11 +17,11 @@ A continuación, se muestra una captura del output de la consola:
 
 **imagen antes de modificar**
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+[![Consola](URL_DE_LA_IMAGEN_CONSOLA)](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-uno/imagenes/1.png)
 
 **imagen despues de modificar**
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+[![Consola](URL_DE_LA_IMAGEN_CONSOLA)](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-uno/imagenes/2.png)
 
 
 **Output de la Consola:**
