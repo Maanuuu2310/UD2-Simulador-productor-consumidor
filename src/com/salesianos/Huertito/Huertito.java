@@ -1,29 +1,29 @@
-package com.salesianos.huertito;
+package com.salesianos.Huertito;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class huertito {
+public class Huertito {
 
     private int maximoDeVegetales = 10;
-    private ArrayList<String> huertito = new ArrayList<>();
+    private ArrayList<String> huerto = new ArrayList<>();
 
-    public huertito(int maximoDeVegetales) {
+    public Huertito(int maximoDeVegetales) {
         this.maximoDeVegetales = maximoDeVegetales <= 0 ? 10 : maximoDeVegetales;
     }
 
-    public huertito() {
+    public Huertito() {
 
     }
 
     synchronized public void plantar(String vegetal, String nombreGranjero) {
         try {
-            while (huertito.size() >= maximoDeVegetales) {
+            while (huerto.size() >= maximoDeVegetales) {
                 wait();
             }
 
-            huertito.add(vegetal);
-            System.out.println(nombreGranjero + " ha plantado un(a) " + vegetal);
+            huerto.add(vegetal);
+            System.out.println(nombreGranjero + " ha plantado una " + vegetal);
             notify();
 
         } catch (InterruptedException excep) {
@@ -32,9 +32,9 @@ public class huertito {
     }
 
     synchronized public void mostrarInventario() {
-        if (huertito.size() != 0) {
-            Iterator<String> inventario = huertito.iterator();
-            System.out.println("En el huertito hay un total de " + huertito.size() + " verduras plantadas.");
+        if (huerto.size() != 0) {
+            Iterator<String> inventario = huerto.iterator();
+            System.out.println("En el huerto hay un total de " + huerto.size() + " verduras plantadas.");
 
             while (inventario.hasNext()) {
                 System.out.println(" - " + inventario.next());
@@ -44,19 +44,19 @@ public class huertito {
             }
 
         } else {
-            System.out.println("No hay verduras en el huertito todavía.\n");
+            System.out.println("No hay verduras en el huerto todavía.\n");
         }
     }
 
     synchronized public String recoger(String nombreCliente) {
         try {
 
-            while (huertito.size() == 0) {
+            while (huerto.size() == 0) {
                 wait();
             }
             notify();
 
-            return huertito.remove(0);
+            return huerto.remove(0);
 
         } catch (InterruptedException excep) {
             System.err.println(excep);
