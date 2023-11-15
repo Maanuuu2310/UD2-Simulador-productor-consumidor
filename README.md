@@ -1,8 +1,24 @@
-# Establecimiento de Prioridades
+# EXPERIMENTO TRES
+
+En una rama llamada “experimento-tres”:
+
+- a) Establece prioridades más altas para los hilos de los productores.
+- b) ¿El resultado es similar al caso en el que hacemos los tiempos de producción más cortos? Muestra una captura del output de la consola
+
+
+## Establecimiento de Prioridades
 
 En esta iteración, se han establecido prioridades más altas para los hilos de los productores. Esto podría tener un impacto en la salida del programa y en la gestión de la concurrencia.
 
 ## Capturas de Pantalla
+
+**Cambios en cliente:**
+
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+
+**Cambios en granjero:**
+
+![Consola](URL_DE_LA_IMAGEN_CONSOLA)
 
 A continuación, se muestra una captura del output de la consola:
 
