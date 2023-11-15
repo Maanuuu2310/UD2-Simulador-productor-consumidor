@@ -4,9 +4,9 @@ El enunciado de este ejercicio nos pide lo siguiente:
 
 En una rama llamada “experimento-uno”:
 
-a) Crea un único productor y un consumidor.
-b) El productor producirá cinco verduras, y el consumidor los consumirá todos.
-c) Muestra una captura del output de la consola y explica con tus palabras el funcionamiento y ejecución del código añadiendo las capturas que consideres oportunas.
+- a) Crea un único productor y un consumidor.
+- b) El productor producirá cinco verduras, y el consumidor los consumirá todos.
+- c) Muestra una captura del output de la consola y explica con tus palabras el funcionamiento y ejecución del código añadiendo las capturas que consideres oportunas.
 
 # Funcionamiento del Código
 
@@ -22,13 +22,13 @@ El código en la rama "experimento-uno" se basa en la creación de un productor 
 
 ** captura del codigo **
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-uno/imagenes/1.png)
 
 A continuación, se muestran capturas de la ejecución del programa:
 
 **Output de la Consola:**
 
-![Consola](URL_DE_LA_IMAGEN_CONSOLA)
+![Consola](https://github.com/Maanuuu2310/UD2-Simulador-productor-consumidor/blob/experimento-uno/imagenes/7.png)
 
 **Explicación de la Ejecución:**
 
